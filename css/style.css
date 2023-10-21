@@ -70,6 +70,7 @@ body {
 /* titulo primario */
 
 .title-primary {
+   max-width: 1100px;
    width: 90%;
    height: 100%;
    color: #3BF686;
@@ -79,7 +80,7 @@ body {
 }
 
 .title {
-   max-width: 1029px;
+   max-width: 1100px;
    max-height: 216px;
    font-family: 'Sora', sans-serif;
 }
@@ -90,6 +91,7 @@ body {
    display: grid;
    grid-template-columns: 150px 1fr 1fr;
    gap: 2rem;
+   max-width: 1100px;
 } 
 
 .avatar {
@@ -186,6 +188,7 @@ h3 {
 
 .apresentacao2 {
    display: grid;
+   max-width: 1100px;
    grid-template-columns: minmax(auto, 1fr) 1fr;
    gap: 3rem;
    width: 90%;
@@ -258,14 +261,16 @@ h3 {
 
 .featured-project {
    width: 90%;
-   max-width: 1200px;
+   max-width: 1100px;
+   justify-self: left;
    margin: auto;
 }
 
 .card-project {
    display: grid;
-   grid-template-columns: 0.6fr 1fr;
-   column-gap: 20px;
+   grid-template-columns: 0.5fr 1fr;
+   max-width: 1100px;
+   gap: 15px;
 }
 
 .content-project {
@@ -344,7 +349,7 @@ h3 {
 /*Code Snippet*/
 
 .code-snippet {
-   max-width: 400px;
+   max-width: 350px;
    height: 183px;
    background-color: #323443;
    display: flex;
